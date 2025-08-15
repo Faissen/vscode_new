@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+#O VS Code observa todos os arquivos que foram alterados ou criados.
+# settings.json é onde o VS Code armazena suas configurações.
+#Não o queremos em nosso repositório.
+.vscode/
+settings.json
+__pycache__/
+*.pyc
